@@ -1,5 +1,4 @@
 const cont = document.querySelector(".container");
-let originalWidth = getComputedStyle(cont).width;
 
 
 // for (let i = 0; i < 16; i++){
