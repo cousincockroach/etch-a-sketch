@@ -1,5 +1,11 @@
 const cont = document.querySelector(".container");
 
+const sizeBtn = document.querySelector(".size");
+const clearBtn = document.querySelector(".clear");
+sizeBtn.onclick = changeGrid;
+
+clearBtn.addEventListener('click', () => cont.replaceChildren());
+
 
 // for (let i = 0; i < 16; i++){
 //     const newDiv = document.createElement("div");
@@ -29,5 +35,5 @@ function changeGrid(){
 }
 
 
- const btn = document.querySelector("#btn");
- btn.onclick = changeGrid;
+
+ 
